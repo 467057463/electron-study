@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "author": "m2",
   "description": "My Electron app",
-  "main": "main.js",
+  "main": "src/main/index.js",
   "license": "MIT",
   "scripts": {
-    "start": "electron -r ./.erb/scripts/BabelRegister ./main.js",
+    "start": "electron ./src/main/index.js",
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
